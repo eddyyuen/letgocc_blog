@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>dotnet on letgo.cc</title>
+    <link>https://letgo.cc/categories/dotnet/</link>
+    <description>Recent content in dotnet on letgo.cc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>eddy@letgo.cc (eddy)</managingEditor>
+    <webMaster>eddy@letgo.cc (eddy)</webMaster>
+    <copyright>©2022, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 28 Mar 2021 16:23:43 +0800</lastBuildDate>
+    
+        <atom:link href="https://letgo.cc/categories/dotnet/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>C# 语句关键字（四）：checked, unchecked</title>
+        <link>https://letgo.cc/posts/dotnet/keyword/checked_unchecked/</link>
+        <pubDate>Sun, 28 Mar 2021 16:23:43 +0800</pubDate>
+        <author>eddy@letgo.cc (eddy)</author>
+        <atom:modified>Sun, 28 Mar 2021 16:23:43 +0800</atom:modified>
+        <guid>https://letgo.cc/posts/dotnet/keyword/checked_unchecked/</guid>
+        <description>语句类别 本期介绍 checked, unchecked, fixed, lock 关键字 类别 C#关键字 选择语句 if、else、switch、case 迭代语句 do、for、foreach、in、while 跳转语句 break、continue、default、goto、return、yield 异常处理语句 throw、try-catch、try-finally、try-catch-finally Checked 和 unchecked checked、unchecked fixed 语句 fixed lock 语句 lock checked checked 关键字</description>
+        
+        <dc:creator>eddy</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>dotnet</category>
+            
+          
+            
+              <category>keyword</category>
+            
+          
+        
+        
+          
+            
+              <category>dotnet</category>
+            
+          
+        
+        
+          
+            
+              <category>CSharp 关键字</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>C# 语句关键字（三）：goto, yield</title>
+        <link>https://letgo.cc/posts/dotnet/keyword/goto_yield/</link>
+        <pubDate>Sun, 28 Mar 2021 16:22:51 +0800</pubDate>
+        <author>eddy@letgo.cc (eddy)</author>
+        <atom:modified>Sun, 28 Mar 2021 16:22:51 +0800</atom:modified>
+        <guid>https://letgo.cc/posts/dotnet/keyword/goto_yield/</guid>
+        <description>语句类别 本期介绍 goto, yield 关键字 类别 C#关键字 选择语句 if、else、switch、case 迭代语句 do、for、foreach、in、while 跳转语句 break、continue、default、goto、return、yield 异常处理语句 throw、try-catch、try-finally、try-catch-finally Checked 和 unchecked checked、unchecked fixed 语句 fixed lock 语句 lock goto 直接跳转到标</description>
+        
+        <dc:creator>eddy</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>dotnet</category>
+            
+          
+            
+              <category>keyword</category>
+            
+          
+        
+        
+          
+            
+              <category>dotnet</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>C# 语句关键字（二）：for, foreach in</title>
+        <link>https://letgo.cc/posts/dotnet/keyword/for_foreach_in/</link>
+        <pubDate>Sun, 28 Mar 2021 16:21:19 +0800</pubDate>
+        <author>eddy@letgo.cc (eddy)</author>
+        <atom:modified>Sun, 28 Mar 2021 16:21:19 +0800</atom:modified>
+        <guid>https://letgo.cc/posts/dotnet/keyword/for_foreach_in/</guid>
+        <description>语句类别 本期介绍 for、foreach、in 关键字 类别 C#关键字 选择语句 if、else、switch、case 迭代语句 do、for、foreach、in、while 跳转语句 break、continue、default、goto、return、yield 异常处理语句 throw、try-catch、try-finally、try-catch-finally Checked 和 unchecked checked、unchecked fixed 语句</description>
+        
+        <dc:creator>eddy</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>dotnet</category>
+            
+          
+            
+              <category>keyword</category>
+            
+          
+        
+        
+          
+            
+              <category>dotnet</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>C# 语句关键字（一）：switch</title>
+        <link>https://letgo.cc/posts/dotnet/keyword/switch/</link>
+        <pubDate>Sun, 28 Mar 2021 16:13:47 +0800</pubDate>
+        <author>eddy@letgo.cc (eddy)</author>
+        <atom:modified>Sun, 28 Mar 2021 16:13:47 +0800</atom:modified>
+        <guid>https://letgo.cc/posts/dotnet/keyword/switch/</guid>
+        <description>介绍 语句就是我们所说的程序指令。一般语句都是按照顺序执行的，除非遇到下表中介绍的关键字。 语句类别 类别 C#关键字 选择语句 if、else、switch、case 迭代语句 do、for、foreach、in、while 跳转语句 break、continue、default、goto、return、yield 异常处理语句 throw、try-catch、try-finally、try-catch-finally</description>
+        
+        <dc:creator>eddy</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>dotnet</category>
+            
+          
+            
+              <category>keyword</category>
+            
+          
+        
+        
+          
+            
+              <category>dotnet</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

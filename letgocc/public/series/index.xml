@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Series on letgo.cc</title>
+    <link>https://letgo.cc/series/</link>
+    <description>Recent content in Series on letgo.cc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>eddy@letgo.cc (eddy)</managingEditor>
+    <webMaster>eddy@letgo.cc (eddy)</webMaster>
+    <copyright>©2022, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 17 Feb 2022 14:24:01 +0800</lastBuildDate>
+    
+        <atom:link href="https://letgo.cc/series/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>test</title>
+        <link>https://letgo.cc/series/test/</link>
+        <pubDate>Thu, 17 Feb 2022 14:24:01 +0800</pubDate>
+        <author>eddy@letgo.cc (eddy)</author>
+        
+        <guid>https://letgo.cc/series/test/</guid>
+        <description></description>
+        
+        <dc:creator>eddy</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>CSharp 关键字</title>
+        <link>https://letgo.cc/series/csharp-%E5%85%B3%E9%94%AE%E5%AD%97/</link>
+        <pubDate>Sun, 28 Mar 2021 16:23:43 +0800</pubDate>
+        <author>eddy@letgo.cc (eddy)</author>
+        
+        <guid>https://letgo.cc/series/csharp-%E5%85%B3%E9%94%AE%E5%AD%97/</guid>
+        <description></description>
+        
+        <dc:creator>eddy</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

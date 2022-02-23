@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>WSL2 on letgo.cc</title>
+    <link>https://letgo.cc/tags/wsl2/</link>
+    <description>Recent content in WSL2 on letgo.cc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>eddy@letgo.cc (eddy)</managingEditor>
+    <webMaster>eddy@letgo.cc (eddy)</webMaster>
+    <copyright>©2022, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 03 Aug 2020 16:51:40 +0800</lastBuildDate>
+    
+        <atom:link href="https://letgo.cc/tags/wsl2/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Windows 10 安装 WSL2</title>
+        <link>https://letgo.cc/posts/windows/2020-08-30-install-wsl/</link>
+        <pubDate>Mon, 03 Aug 2020 16:51:40 +0800</pubDate>
+        <author>eddy@letgo.cc (eddy)</author>
+        <atom:modified>Mon, 03 Aug 2020 16:51:40 +0800</atom:modified>
+        <guid>https://letgo.cc/posts/windows/2020-08-30-install-wsl/</guid>
+        <description>前言 有一些服务想要部署，但是没有那么多的测试环境。用 VirtualBox 的话占用的资源也不少。想起之前看过 WSL 的介绍，说启动一个Linux只需要几十M的内存！话不多说，搞起！ 启用 WSL 以管理员身份打开 PowerShell ： 1 2 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart 更新到 WSL 2（可选） 升级 Windows Windows 10 Version 2004 以上的版本才能安装 WSL 2。可以运行 winver 查看自己的版本。 下载 更新工具 进行更新 启用“虚拟机平台”可选组件 1 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart 升级 WSL2 Linux 内核 要使用 WSL 2 必须先下载 WSL 2 Linux 内核更新包安装即可。官方</description>
+        
+        <dc:creator>eddy</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>WSL2</category>
+            
+          
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

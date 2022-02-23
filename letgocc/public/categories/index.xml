@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Categories on letgo.cc</title>
+    <link>https://letgo.cc/categories/</link>
+    <description>Recent content in Categories on letgo.cc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>eddy@letgo.cc (eddy)</managingEditor>
+    <webMaster>eddy@letgo.cc (eddy)</webMaster>
+    <copyright>©2022, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 18 Feb 2022 10:32:43 +0800</lastBuildDate>
+    
+        <atom:link href="https://letgo.cc/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>golang</title>
+        <link>https://letgo.cc/categories/golang/</link>
+        <pubDate>Fri, 18 Feb 2022 10:32:43 +0800</pubDate>
+        <author>eddy@letgo.cc (eddy)</author>
+        
+        <guid>https://letgo.cc/categories/golang/</guid>
+        <description></description>
+        
+        <dc:creator>eddy</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>flags</title>
+        <link>https://letgo.cc/categories/flags/</link>
+        <pubDate>Thu, 17 Feb 2022 14:24:01 +0800</pubDate>
+        <author>eddy@letgo.cc (eddy)</author>
+        
+        <guid>https://letgo.cc/categories/flags/</guid>
+        <description></description>
+        
+        <dc:creator>eddy</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>dotnet</title>
+        <link>https://letgo.cc/categories/dotnet/</link>
+        <pubDate>Sun, 28 Mar 2021 16:23:43 +0800</pubDate>
+        <author>eddy@letgo.cc (eddy)</author>
+        
+        <guid>https://letgo.cc/categories/dotnet/</guid>
+        <description></description>
+        
+        <dc:creator>eddy</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

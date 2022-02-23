@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>blog on letgo.cc</title>
+    <link>https://letgo.cc/tags/blog/</link>
+    <description>Recent content in blog on letgo.cc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>eddy@letgo.cc (eddy)</managingEditor>
+    <webMaster>eddy@letgo.cc (eddy)</webMaster>
+    <copyright>©2022, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 30 Jul 2020 15:59:34 +0800</lastBuildDate>
+    
+        <atom:link href="https://letgo.cc/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>使用 Hugo 建立博客</title>
+        <link>https://letgo.cc/posts/go/blog/2020-07-30-hugo-install/</link>
+        <pubDate>Thu, 30 Jul 2020 15:59:34 +0800</pubDate>
+        <author>eddy@letgo.cc (eddy)</author>
+        <atom:modified>Thu, 30 Jul 2020 15:59:34 +0800</atom:modified>
+        <guid>https://letgo.cc/posts/go/blog/2020-07-30-hugo-install/</guid>
+        <description>想要备份一些技术文章和资料，很多博客都是php或要求数据库，找了一圈发现 Hugo 不错，单一文件，还是 golang 写的。 具体怎么使用搜索一下一大堆，这里写一下别的。 修改 Themes 后怎么编译 修改了别人的 scss 文件的话需要下载 extended 版本的hugo才能正常编译。只是修改HTML的话就不用。 显示行号、代码高亮 lineos 代表显示行号。 hl_line 代表代码里需要高亮的行，[2,3,5-7]表示第2、3、5至7 行都高亮。 linenostart 表示行号从199开始，这里的行号跟高亮的</description>
+        
+        <dc:creator>eddy</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>blog</category>
+            
+          
+            
+              <category>hugo</category>
+            
+          
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
