@@ -158,9 +158,16 @@ commento = false
 
 # Isso: https://posativ.org/isso/
 [isso]
-  enable = true
+  enable = false
   scriptSrc = "https://isso.example.com/js/embed.min.js" # "https://isso.example.com/js/embed.min.js"
   dataAttrs = "data-isso='https://isso.example.com' data-isso-require-author='true'" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
+
+[remark42]
+  enable = true
+  remarkHost = "https://c.letgo.cc"
+  remarkSite = "letgocc"
+  remarkMaxComments = 10
+  
 
 [socialOptions]
   email = "mailto:eddy@letgo.cc"
