@@ -102,6 +102,8 @@ enableBusuanzi = false
 busuanziSiteUV = true
 busuanziSitePV = true
 busuanziPagePV = true
+enableUmeng = true
+umengSiteID = 1280895344
 
 # rss
 updatePeriod = "" # Possible values: 'hourly', 'daily', 'weekly', 'monthly', or 'yearly'.

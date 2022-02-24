@@ -10,6 +10,7 @@
                 <a href="{{ .link }}" class="footer__link" target="_blank" rel="noreferrer">{{ .name }}</a>
             {{ end }}
         {{ end }}
+
     </div>
 
     <div class="footer__poweredby">
@@ -28,12 +29,16 @@
                 {{ else }}
                     {{ with $.Site.Copyright }}{{ replace . "{year}" now.Year | markdownify}}{{ end }}
                 {{ end }}
+				{{ if $.Param "showPoweredBy" }}
+				Powered by <a href="https://gohugo.io/" target="_blank" rel="noreferrer">Hugo</a> and <a href="https://github.com/zzossig/hugo-theme-zzo" target="_blank" rel="noreferrer">Zzo theme</a>
+				{{ end }}
             </p>
         {{ end }}
 
-        {{ if $.Param "showPoweredBy" }}
-            <p class="caption">Powered by <a href="https://gohugo.io/" target="_blank" rel="noreferrer">Hugo</a> and the <a href="https://github.com/zzossig/hugo-theme-zzo" target="_blank" rel="noreferrer">Zzo theme</a></p>
-        {{ end }}
+        
+		{{ if $.Param "enableUmeng" }}
+		<p class="caption">		<script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_{{ $.Site.Params.umengSiteID }}'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/stat.php%3Fid%3D{{ $.Site.Params.umengSiteID }}%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script></p>
+		{{ end }}
         
     </div> 
 </footer>

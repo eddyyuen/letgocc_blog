@@ -9,7 +9,7 @@ hasCJKLanguage = true
 summaryLength = 200
 buildFuture = true
 
-copyright = "&copy;{year}, All Rights Reserved"
+copyright = "&copy;2020-{year}, All Rights Reserved. "
 timeout = 10000
 enableEmoji = true
 paginate = 10
