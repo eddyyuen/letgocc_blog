@@ -11,12 +11,29 @@
         {{ if and $index (ge (len $element) $minItemsToShowInTagCloud) }}
             <span class="tag">
                 <a href="{{ $element.Page.RelPermalink }}" class="is-tags taxo__link" data-dir="{{ if ne ($.Param "languagedir") "rtl" }}ltr{{ else }}rtl{{ end }}">
+				 {{ if (ge (len $element) 10)}}
+                    <span class="taxo__text h6">
+                        {{ $element.Page.Title }}
+                    </span>
+					<span class="taxo__num p1" dir="auto">
+                        {{ printf "%#v" (len $element) }}
+                    </span>
+				 {{ else if (ge (len $element) 5)}}
+                    <span class="taxo__text p1">
+                        {{ $element.Page.Title }}
+                    </span>
+					<span class="taxo__num p2" dir="auto">
+                        {{ printf "%#v" (len $element) }}
+                    </span>
+				 {{ else }}
                     <span class="taxo__text">
                         {{ $element.Page.Title }}
                     </span>
-                    <span class="taxo__num" dir="auto">
+					<span class="taxo__num" dir="auto">
                         {{ printf "%#v" (len $element) }}
                     </span>
+				 {{ end }}
+                    
                 </a>
             </span>
         {{ end }}

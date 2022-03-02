@@ -7,6 +7,8 @@ images:
 tags: 
   - blog
   - hugo
+series: 
+  - Hugo
 ---
 
 
