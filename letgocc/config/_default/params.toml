@@ -8,10 +8,10 @@ meta_image = ""
 themecolor = ""
 
 themeOptions = ["light", "dark"]
-notAllowedTypesInHome = ["guest", "about"]
-notAllowedTypesInHomeSidebar = ["about", "archive", "guest"]
-notAllowedTypesInArchive = ["about", "guest", ]
-notAllowedTypesInHomeFeed = ["about", "archive", "guest"]
+notAllowedTypesInHome = ["guest", "about", "comments"]
+notAllowedTypesInHomeSidebar = ["about", "archive", "guest", "comments"]
+notAllowedTypesInArchive = ["about", "guest", "comments"]
+notAllowedTypesInHomeFeed = ["about", "archive", "guest", "comments"]
 
 viewportSize = "wide" # widest, wider, wide, normal, narrow
 enableUiAnimation = false
