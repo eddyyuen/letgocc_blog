@@ -20,3 +20,10 @@
   name = "评论"
   url = "comments"
   weight = 2
+
+
+[[main]]
+  identifier = "guest"
+  name = "留言"
+  url = "guest"
+  weight = 5
