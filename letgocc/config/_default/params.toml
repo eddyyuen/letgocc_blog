@@ -1,7 +1,7 @@
 logoText = "letgo.cc"
 logoType = "short" # long, short
-description = "https://letgo.cc."
-custom_css = []
+description = "分享在学习golang,.NetCore过程中的一些文章"
+custom_css = ["css/black.css"]
 custom_js = []
 useFaviconGenerator = true # https://www.favicon-generator.org/
 meta_image = ""
